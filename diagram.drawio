@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Page-1" id="cU3oyq0o71LkBGWJJGAr">
+    <mxGraphModel dx="1050" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bXf69-Az3gxmYmKi_3e--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bXf69-Az3gxmYmKi_3e--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="bXf69-Az3gxmYmKi_3e--1" target="bXf69-Az3gxmYmKi_3e--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--1" value="" style="swimlane;whiteSpace=wrap;html=1;startSize=80;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--2" value="client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="bXf69-Az3gxmYmKi_3e--1">
+          <mxGeometry x="50" y="10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="bXf69-Az3gxmYmKi_3e--1">
+          <mxGeometry x="20" y="100" width="71.43" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--4" value="" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.mobile;" vertex="1" parent="bXf69-Az3gxmYmKi_3e--1">
+          <mxGeometry x="110" y="97.5" width="27.78" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bXf69-Az3gxmYmKi_3e--7" target="bXf69-Az3gxmYmKi_3e--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--7" value="backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--9" value="yamls" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bXf69-Az3gxmYmKi_3e--10" target="bXf69-Az3gxmYmKi_3e--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--10" value="frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bXf69-Az3gxmYmKi_3e--14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Core Logic&lt;/h1&gt;&lt;p data-end=&quot;229&quot; data-start=&quot;91&quot;&gt;A YAML file with a specific format will be read by the backend. This YAML file will contain the details of the offered services on the landing page.&lt;/p&gt;&lt;p data-end=&quot;374&quot; data-start=&quot;231&quot;&gt;The frontend will fetch this data when the landing page loads, receiving the information in JSON format via a REST API provided by the backend.&lt;/p&gt;&lt;p data-end=&quot;511&quot; data-start=&quot;376&quot;&gt;On the landing page, users will see details about each service, including the title, description, cost, and other relevant information.&lt;/p&gt;&lt;p data-end=&quot;772&quot; data-start=&quot;513&quot;&gt;The homepage will include a brief introduction to the freelancer and an overview of the available services. It will also feature a contact button that uses a &lt;code data-end=&quot;680&quot; data-start=&quot;671&quot;&gt;mailto:&lt;/code&gt; link to initiate email communication, along with separate FAQ and Terms &amp;amp; Conditions pages.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p data-end=&quot;857&quot; data-start=&quot;774&quot;&gt;All additional inquiries or service requests will be handled exclusively via email.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="75" width="350" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QKOQrGnZQKLd4FfbjL-4" value="me/you" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
+          <mxGeometry x="90" y="340" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
