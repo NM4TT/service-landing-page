@@ -1,0 +1,48 @@
+services:
+  - title: "UX/UI Design"
+    description: "Design intuitive and engaging user interfaces for websites or mobile apps using tools like Figma and Adobe XD."
+    cost: 750
+    delivery_time: "5 days"
+    tags: ["design", "ui", "ux", "figma"]
+
+  - title: "Custom Web Application Development"
+    description: "Develop scalable web applications using modern stacks like React, Node.js, and MongoDB."
+    cost: 1500
+    delivery_time: "10 days"
+    tags: ["web", "react", "nodejs", "fullstack", "javascript"]
+
+  - title: "RESTful API Development"
+    description: "Design and implement RESTful APIs with proper documentation and authentication using Django REST Framework or Express.js."
+    cost: 800
+    delivery_time: "5 days"
+    tags: ["api", "backend", "django", "express", "rest"]
+
+  - title: "Mobile App Development"
+    description: "Develop cross-platform mobile apps using Flutter or React Native with smooth UI and solid backend integration."
+    cost: 1200
+    delivery_time: "7 days"
+    tags: ["mobile", "flutter", "reactnative", "ios", "android"]
+
+  - title: "Code Review & Refactoring"
+    description: "Review your codebase for best practices, performance, and security; includes refactoring recommendations."
+    cost: 300
+    delivery_time: "2 days"
+    tags: ["review", "codequality", "refactoring", "bestpractices"]
+
+  - title: "DevOps Setup"
+    description: "Set up CI/CD pipelines, Docker containers, and deployment processes using tools like GitHub Actions and AWS."
+    cost: 1000
+    delivery_time: "6 days"
+    tags: ["devops", "ci/cd", "docker", "aws", "automation"]
+
+  - title: "Database Design & Optimization"
+    description: "Design efficient, scalable database schemas and optimize queries for PostgreSQL, MySQL, or MongoDB."
+    cost: 600
+    delivery_time: "3 days"
+    tags: ["database", "sql", "mongodb", "performance", "schema"]
+
+  - title: "Bug Fixing & Maintenance"
+    description: "Fix critical bugs and perform regular maintenance on your existing applications to ensure smooth operation."
+    cost: 250
+    delivery_time: "1-2 days"
+    tags: ["bugfix", "maintenance", "support", "debugging"]
